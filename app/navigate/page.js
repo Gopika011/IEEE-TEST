@@ -40,7 +40,7 @@ const Navigate = () => {
         </div>
 
         <div className='flex flex-col gap-3'>
-          <h1 className='text-gray-400'>CONNECT WITH US</h1>
+          <h1 className='text-gray-400'>CONNECT WITH ME</h1>
           <div className='flex flex-row gap-6 ml-2'>
             <IoLogoInstagram className='text-2xl'/>
             <CiTwitter className='text-2xl'/>
