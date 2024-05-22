@@ -8,13 +8,13 @@ import icon from '../public/down-arrow.png'
 const App = () => {
   return (
     <>
-      <Navbar text="menu" link="/navigate"></Navbar>
-      <div className='border border-x-purple-500 relative overflow-hidden mx-20'>
+      <Navbar></Navbar>
+      <div className='relative overflow-hidden mx-20'>
         <div className="absolute inset-0">
           <Image src={background} layout='fill' className='w-full h-full' />
         </div>
         
-        <div className='my-24 mx-28 border border-red-950 relative z-10'>
+        <div className='my-24 mx-28 relative z-10'>
           {/* Content */}
           <div className='text-white text-4xl w-1/2 mb-20'>
             <h1>Digital <i>craftsmanship</i> SCULPTING YOU AS A LEADER</h1>
